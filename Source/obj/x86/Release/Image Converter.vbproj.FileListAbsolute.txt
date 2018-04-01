@@ -1,0 +1,10 @@
+C:\Users\Nicholas Impieri\documents\visual studio 2010\Projects\Image Converter\Image Converter\bin\Release\Image Converter.exe
+C:\Users\Nicholas Impieri\documents\visual studio 2010\Projects\Image Converter\Image Converter\bin\Release\Image Converter.pdb
+C:\Users\Nicholas Impieri\documents\visual studio 2010\Projects\Image Converter\Image Converter\bin\Release\Image Converter.xml
+C:\Users\Nicholas Impieri\documents\visual studio 2010\Projects\Image Converter\Image Converter\obj\x86\Release\Image_Converter.Form1.resources
+C:\Users\Nicholas Impieri\documents\visual studio 2010\Projects\Image Converter\Image Converter\obj\x86\Release\Image_Converter.Form2.resources
+C:\Users\Nicholas Impieri\documents\visual studio 2010\Projects\Image Converter\Image Converter\obj\x86\Release\Image_Converter.Resources.resources
+C:\Users\Nicholas Impieri\documents\visual studio 2010\Projects\Image Converter\Image Converter\obj\x86\Release\Image Converter.vbproj.GenerateResource.Cache
+C:\Users\Nicholas Impieri\documents\visual studio 2010\Projects\Image Converter\Image Converter\obj\x86\Release\Image Converter.exe
+C:\Users\Nicholas Impieri\documents\visual studio 2010\Projects\Image Converter\Image Converter\obj\x86\Release\Image Converter.xml
+C:\Users\Nicholas Impieri\documents\visual studio 2010\Projects\Image Converter\Image Converter\obj\x86\Release\Image Converter.pdb
