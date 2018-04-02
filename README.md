@@ -1,7 +1,7 @@
 <h2>http://imageconverter.altervista.org/</h2>
 
 # Image-Converter
-:beer: Image Converter Software for Windows Written in Visual Basic
+:fire: Image Converter Software for Windows Written in Visual Basic
 
 ----------------------------------------------------------------------
 
