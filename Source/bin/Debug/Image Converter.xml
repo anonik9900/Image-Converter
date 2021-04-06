@@ -8,32 +8,40 @@ ImageConverter
 <members>
 <member name="P:Image_Converter.My.Resources.Resources.ResourceManager">
 	<summary>
-  Restituisce l'istanza di ResourceManager nella cache utilizzata da questa classe.
+  Returns the cached ResourceManager instance used by this class.
 </summary>
 </member><member name="P:Image_Converter.My.Resources.Resources.Culture">
 	<summary>
-  Esegue l'override della proprietà CurrentUICulture del thread corrente per tutte le
-  ricerche di risorse eseguite utilizzando questa classe di risorse fortemente tipizzata.
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
 </summary>
 </member><member name="P:Image_Converter.My.Resources.Resources.banner_frame">
 	<summary>
-  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Image_Converter.My.Resources.Resources.button_convert">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Image_Converter.My.Resources.Resources.button_open_image">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:Image_Converter.My.Resources.Resources.Gakuseisean_Aire_Images">
 	<summary>
-  Cerca una risorsa localizzata di tipo System.Drawing.Icon simile a (Icona).
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
 </summary>
 </member><member name="P:Image_Converter.My.Resources.Resources.Images_icon">
 	<summary>
-  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+  Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:Image_Converter.My.Resources.Resources.loading">
 	<summary>
-  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+  Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="T:Image_Converter.My.Resources.Resources">
 	<summary>
-  Classe di risorse fortemente tipizzata per la ricerca di stringhe localizzate e così via.
+  A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
 </member>
 </members>

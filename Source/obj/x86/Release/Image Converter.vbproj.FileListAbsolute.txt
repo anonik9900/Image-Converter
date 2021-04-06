@@ -8,3 +8,17 @@ C:\Users\Nicholas Impieri\documents\visual studio 2010\Projects\Image Converter\
 C:\Users\Nicholas Impieri\documents\visual studio 2010\Projects\Image Converter\Image Converter\obj\x86\Release\Image Converter.exe
 C:\Users\Nicholas Impieri\documents\visual studio 2010\Projects\Image Converter\Image Converter\obj\x86\Release\Image Converter.xml
 C:\Users\Nicholas Impieri\documents\visual studio 2010\Projects\Image Converter\Image Converter\obj\x86\Release\Image Converter.pdb
+C:\Users\impie\Desktop\Image-Converter-master\Source\bin\Release\Image Converter.exe
+C:\Users\impie\Desktop\Image-Converter-master\Source\bin\Release\Image Converter.pdb
+C:\Users\impie\Desktop\Image-Converter-master\Source\bin\Release\Image Converter.xml
+C:\Users\impie\Desktop\Image-Converter-master\Source\obj\x86\Release\Image_Converter.Form1.resources
+C:\Users\impie\Desktop\Image-Converter-master\Source\obj\x86\Release\Image_Converter.Form2.resources
+C:\Users\impie\Desktop\Image-Converter-master\Source\obj\x86\Release\Image_Converter.Resources.resources
+C:\Users\impie\Desktop\Image-Converter-master\Source\obj\x86\Release\Image Converter.vbproj.GenerateResource.Cache
+C:\Users\impie\Desktop\Image-Converter-master\Source\obj\x86\Release\Image Converter.exe
+C:\Users\impie\Desktop\Image-Converter-master\Source\obj\x86\Release\Image Converter.xml
+C:\Users\impie\Desktop\Image-Converter-master\Source\obj\x86\Release\Image Converter.pdb
+C:\Users\impie\Desktop\Image-Converter-master\Source\bin\Release\Image Converter.exe.manifest
+C:\Users\impie\Desktop\Image-Converter-master\Source\bin\Release\Image Converter.application
+C:\Users\impie\Desktop\Image-Converter-master\Source\obj\x86\Release\Image Converter.exe.manifest
+C:\Users\impie\Desktop\Image-Converter-master\Source\obj\x86\Release\Image Converter.application

@@ -71,11 +71,11 @@ Partial Class Form2
         Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(41, Byte), Integer))
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(228, 350)
+        Me.Label1.Location = New System.Drawing.Point(206, 350)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(317, 31)
+        Me.Label1.Size = New System.Drawing.Size(367, 31)
         Me.Label1.TabIndex = 3
-        Me.Label1.Text = "Devolved By Anonik9900"
+        Me.Label1.Text = "Devolved By Nicholas Impieri"
         '
         'Label2
         '
