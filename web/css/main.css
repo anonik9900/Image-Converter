@@ -1,0 +1,244 @@
+body { color: #222; font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif; background: #ededed url(image/logo.png) top left no-repeat; margin:0; padding:0;  position:relative;}
+
+
+#banner {
+	background:transparent;
+	margin: 18px 10px 0 150px;
+	padding: 0;
+	text-align: left;
+}
+
+a:link { color: #c60; font-weight: bold; text-decoration: none; border-bottom: 1px solid #fff;}
+a:visited	{ color: #b40; font-weight: bold; text-decoration: none; border-bottom: 1px solid #fff; }
+a:active	{ color: #E55D00; font-weight: bold; text-decoration: none; border-bottom: 1px solid #fff; }
+a:hover		{ color: #375CA1; font-weight: bold; text-decoration: none; border-bottom: 1px dotted #375CA1;}
+
+
+#content {
+	background:#fff url(logo.png) top left no-repeat;
+	margin: 0 0 35px 114px;
+	padding: 0 60px 20px 30px;
+	border: 1px solid #999;
+	border-right:none;
+	}
+
+
+
+#content p{
+	margin:0 0 1em;
+	font-size: 13px;
+}
+
+
+#content li {
+	font-size: 13px;
+}
+
+
+
+
+#firstp {
+	clear:left;
+	padding-left: 100px;
+	height: 110px;
+}
+
+
+#footer {
+	background:#fff;
+	margin: 45px 120px 100px 0;
+	padding: 10px;
+	border: 1px solid #999;
+	border-left:none;
+}
+
+#footer p {
+	margin:0 0 1em;
+	font-size: 11px;
+	color: #777;
+}
+
+#footer p.smallprint {
+	font-family: "Courier New", Courier, monospace; font-size: 11px;  color: #222; margin:0 5% 1em; padding: 0.5em 1em; border: 1px solid #999; background-color:#ededed;}
+
+#magpie {
+	position:absolute;
+	top: 280px;
+	left:13px;
+	background:transparent;
+	width:88px;
+	font-size: 9px;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+#badge {
+	float:right;
+	padding: 4px;
+	background: #ededed;
+	border: 1px solid #777;
+	font-size: 10px;
+	margin: 4px 0 4px 1em;
+	text-align:center;
+}
+
+.badge-header {
+	background-color:  #f60;
+	color: #fff;
+	font-size: 12px;
+	margin: 0 4px 0 0;
+	padding:0;
+}
+
+
+
+#magpie a:link, #magpie a:visited, #footer p.smallprint a:link, #footer p.smallprint a:visited { border-bottom: 1px solid #ededed;}
+
+#magpie a:hover , #footer p.smallprint a:hover { color: #375CA1; font-weight: bold; text-decoration: none; border-bottom: 1px dotted #375CA1;}
+
+
+h3, h4, h5 {
+	margin:0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding:0;
+	color:#444;
+}
+
+
+h1
+{
+	font-family: "American Typerwriter", "Courier New", Courier, monospaced;
+	font-size: 45px;
+	margin: 0 0 -14px;
+	padding: 0;
+	color: #222;
+}
+
+#banner h2
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 0 0 0 36px;
+	padding: 0;
+	font-size: 14px;
+	color: #777;
+}
+
+.title {
+	font-size: 20px;
+	padding-top:20px;
+}
+
+
+.spread, .nospread {
+	margin-top:0;
+	margin-left:20px;
+	}
+
+.spread li {
+ 	font-size: 11px;
+	margin-bottom:0.5em;
+}
+
+#content .caption {
+	font-size: 11px;
+	color: #555;
+	text-align:center;
+	margin: 2em 0;
+}
+
+.nospread li {
+	font-size: 11px;
+	margin-bottom:0;
+}
+
+.marked {
+	font-family:"American Typewriter", "Courier New", Courier, monospaced;
+	font-size: 14px;
+	font-weight:bold;
+}
+
+#content blockquote
+{
+	font-size: 12px;
+	color: #22b;
+	font-style: italic;
+}
+
+pre {
+    border: #777777 1px solid;
+    padding: 0.5em;
+    margin-left: 1em;
+    margin-right: 2em;
+    white-space: pre;
+    background-color: #e6e6e6;
+    color: black;
+}
+
+
+
+ #navbox {
+ 	margin: 28px 10px 0 150px;
+ 	padding: 0;
+	height: 22px;
+ }
+
+ # menu nav courtesy of listamatic and zeldman
+ # http://css.maxdesign.com.au/listamatic/horizontal09.htm
+
+ #navcontainer
+ {
+ margin: 0;
+ padding: 0;
+ height: 24px;
+ }
+
+ #navcontainer ul
+ {
+ border: 0;
+ margin: 0;
+ padding: 0;
+ list-style-type: none;
+ text-align: center;
+ }
+
+ #navcontainer ul li
+ {
+ display: block;
+ float: left;
+ text-align: center;
+ padding: 0;
+ margin: 0;
+
+ }
+
+ #navcontainer ul li a
+ {
+ background: #f60;
+ width: 65px;
+ height: 21px;
+ border-top: 1px solid #ffcba8;
+ border-left: 1px solid #ffcba8;
+ border-bottom: 1px solid #ffcba8;
+ border-right: none;
+ padding: 0;
+ margin: 0 0 10px 0;
+ color: #fff;
+ text-decoration: none;
+ display: block;
+ text-align: center;
+ font: 11px/22px "Lucida Grande", "Lucida Sans Unicode", verdana, lucida, sans-serif;
+ }
+
+ #navcontainer ul li a:hover
+ {
+ color: #f60;
+ background: #ffcba8;
+ }
+
+ #navcontainer li#active a
+ {
+ background: #92CFF6;
+ border: 1px solid #abd5ff;
+ color: #222;
+ }

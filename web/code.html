@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Code Image Converter</title>
+
+
+	<link rel="stylesheet" href="css/main.css" media="screen">
+
+	<link rel="stylesheet" href="css/basic1.css">
+
+  <link rel="icon" src="/favicon.ico">
+  </head>
+  <body>
+
+    <body>
+
+<div id="banner">
+<h1>Image Converter</h1>
+<h2>Free Converter Software Written in Visual Basic</h2>
+</div>
+
+<div id="navbox">
+ <div id="navcontainer">
+ <ul id="navlist">
+
+ <li><a href="index.html">Home</a></li>
+<li><a href="download.html">Download</a></li>
+ <li id="active"><a href="code.html" id="current">Code</a></li>
+ <li><a href="https://github.com/anonik9900/Image-Converter">Github</a></li>
+
+ </ul>
+ </div>
+
+</div>
+
+<div id="content">
+<div id="firstp">
+<h3 class="title">&lt;Code&gt; Image Converter</h3>
+<p>The Free Image Converter Software</p>
+</div>
+
+
+<p>
+<h3>Form 1 Code </h3><br>
+<pre> Public Class Form1
+
+    Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        ComboBox1.SelectedItem = "PNG"
+    End Sub
+  </pre>
+</p>
+
+<br>
+
+
+
+<p>
+  <h3>Form 1 | Button_1</h3>
+    <pre> Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        Try
+            If OpenFileDialog1.ShowDialog = DialogResult.OK Then
+                PictureBox1.Image = System.Drawing.Image.FromFile(OpenFileDialog1.FileName)
+            End If
+
+        Catch ex As Exception
+
+        End Try
+    End Sub
+  </pre>
+</p>
+
+<br>
+
+<p>
+  <h3>Form 1 | Button_2</h3>
+  <pre>Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+        If ComboBox1.SelectedItem = "JPEG" Then
+            Try
+                SaveFileDialog1.Filter = "JPEG |*.jpeg"
+                If SaveFileDialog1.ShowDialog() = DialogResult.OK Then
+                    PictureBox1.Image.Save(SaveFileDialog1.FileName, System.Drawing.Imaging.ImageFormat.Jpeg)
+                End If
+            Catch ex As Exception
+            End Try
+        End If
+        If ComboBox1.SelectedItem = "PNG" Then
+            Try
+                SaveFileDialog1.Filter = "PNG |*.png"
+                If SaveFileDialog1.ShowDialog() = DialogResult.OK Then
+                    PictureBox1.Image.Save(SaveFileDialog1.FileName, System.Drawing.Imaging.ImageFormat.Png)
+                End If
+            Catch ex As Exception
+            End Try
+        End If
+        If ComboBox1.SelectedItem = "GIF" Then
+            Try
+                SaveFileDialog1.Filter = "GIF |*.gif"
+                If SaveFileDialog1.ShowDialog() = DialogResult.OK Then
+                    PictureBox1.Image.Save(SaveFileDialog1.FileName, System.Drawing.Imaging.ImageFormat.Gif)
+                End If
+            Catch ex As Exception
+            End Try
+        End If
+
+        If ComboBox1.SelectedItem = "BMP" Then
+            Try
+                SaveFileDialog1.Filter = "BMP |*.bmp"
+                If SaveFileDialog1.ShowDialog() = DialogResult.OK Then
+                    PictureBox1.Image.Save(SaveFileDialog1.FileName, System.Drawing.Imaging.ImageFormat.Bmp)
+                End If
+            Catch ex As Exception
+            End Try
+        End If
+    End Sub
+  </pre>
+</p>
+
+<br>
+
+<p>
+  <h3>Form 1 | Button_3</h3>
+  <pre>Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
+        System.Diagnostics.Process.Start("http://imageconverter.altervista.org/")
+    End Sub
+End Class
+</pre>
+</p>
+
+<br>
+
+<hr>
+
+<b>
+
+<p>
+  <h3>Form 2 Code</h3>
+  <pre>Public Class Form2
+
+    Private Sub Form2_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Timer1.Start()
+
+        Dim ofd As New OpenFileDialog()
+        ofd.Filter = " bild offnen (*.png)|*.png |All Files |*.*"
+    End Sub
+  </pre>
+</p>
+
+<br>
+
+<p>
+  <h3>Form 2 | Timer</h3>
+  <pre> Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
+        ProgressBar1.Increment(5)
+        If ProgressBar1.Value = ProgressBar1.Maximum Then
+            Form1.Show()
+            Me.Hide()
+            Timer1.Stop()
+        End If
+    End Sub
+End Class
+</pre>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="footer">
+  <div align="center">
+<p>
+  Copyright &copy; Image Converter 2021 All Rights Reserved | Devolved By <a href="https://github.com/anonik9900">Nicholas Impieri</a>
+</p>
+</div>
+</div>
+
+
+
+  </body>
+</html>
